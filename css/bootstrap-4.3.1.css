@@ -2490,8 +2490,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #4A7C59;
+  border-color: #4A7C59;
 }
 
 .btn-success:hover {
@@ -4341,8 +4341,7 @@ input[type="button"].btn-block {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
-    justify-content: flex-start;
-	background: #4A7C59;
+    justify-content: flex-start;	
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
@@ -6582,7 +6581,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color:  !important;
+  background-color: #4A7C59  !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
