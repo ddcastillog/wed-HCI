@@ -4157,8 +4157,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-	background: #4A7C59;
-}
+	}
 
 .navbar > .container,
 .navbar > .container-fluid {
@@ -6581,7 +6580,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #4A7C59  !important;
+  background-color:   !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
