@@ -2490,8 +2490,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #4A7C59;
+  border-color: #4A7C59;
 }
 
 .btn-success:hover {
@@ -4156,7 +4156,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding:0rem;
 	background: #4A7C59;
 }
 
@@ -4289,8 +4289,8 @@ input[type="button"].btn-block {
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -4311,6 +4311,8 @@ input[type="button"].btn-block {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+	  
+	  
   }
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
@@ -5065,6 +5067,7 @@ a.badge-danger:focus, a.badge-danger.focus {
 a.badge-light:hover, a.badge-light:focus {
   color: #212529;
   background-color: #dae0e5;
+ 
 }
 
 a.badge-light:focus, a.badge-light.focus {
@@ -6407,7 +6410,7 @@ a.close.disabled {
 }
 
 .carousel-caption {
-  position: absolute;
+  position:absolute;
   right: 15%;
   bottom: 20px;
   left: 15%;
@@ -6582,7 +6585,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color:  !important;
+  background-color: #4A7C59 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10056,4 +10059,55 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 .mr-a {
+}
+
+.fondo {
+	background: #4A7C59;
+}
+
+.fondo1 {
+	background: #C8D5B9;
+}
+
+.fondopie {
+	background: #C8D5B9;
+}
+
+.letra {
+	font:  "Comic Sans ",normal;	
+}
+
+.fondoco {
+	background: #2A363B;
+	font:"Comic Sans", normal;
+	color: #FFFFFF;
+}
+
+.v2 {
+	font-size: 5vw;
+}
+
+.v1 {
+	font-size: 1.5vw;
+}
+
+.correcion {
+	padding-right: 0px;
+  padding-left: 0px;
+}
+
+.v3 {
+	font-size:1vw; 
+}
+
+.w-10 {
+	width: 10% !important;
+}
+
+.v4 {
+	font-size: 1vw;
+}
+
+.v5 {
+	font-size:font-size:4vw;
 }
