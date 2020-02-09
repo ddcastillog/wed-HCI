@@ -38,7 +38,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box; 
+	
 }
 
 html {
@@ -2756,8 +2757,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
-  border-color: #28a745;
+  color: #FFFFFF;
+  border-color: #4A7C59;
 }
 
 .btn-outline-success:hover {
@@ -2784,7 +2785,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+    color: #4A7C59;
 }
 
 .btn-outline-info {
@@ -4155,6 +4157,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+	background: #4A7C59;
 }
 
 .navbar > .container,
@@ -4339,6 +4342,7 @@ input[type="button"].btn-block {
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
+	background: #4A7C59;
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
@@ -6578,7 +6582,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color:  !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -8334,6 +8338,9 @@ button.bg-dark:focus {
 .mr-auto,
 .mx-auto {
   margin-right: auto !important;
+  margin-left: auto!important;
+  
+	
 }
 
 .mb-auto,
@@ -8352,7 +8359,7 @@ button.bg-dark:focus {
   }
   .mt-sm-0,
   .my-sm-0 {
-    margin-top: 0 !important;
+   background:#4A7C59;
   }
   .mr-sm-0,
   .mx-sm-0 {
@@ -10036,3 +10043,17 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.dd {
+	box-sizing: border-box;
+	background: #4A7C59;
+}
+
+
+
+
+
+
+
+.mr-a {
+}
