@@ -2490,8 +2490,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #4A7C59;
-  border-color: #4A7C59;
+  background-color: #28a745;
+  border-color: #28a745;
 }
 
 .btn-success:hover {
@@ -4157,7 +4157,8 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-	}
+	background: #4A7C59;
+}
 
 .navbar > .container,
 .navbar > .container-fluid {
@@ -4340,7 +4341,8 @@ input[type="button"].btn-block {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: start;
-    justify-content: flex-start;	
+    justify-content: flex-start;
+	background: #4A7C59;
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
@@ -6580,7 +6582,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color:   !important;
+  background-color:  !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
