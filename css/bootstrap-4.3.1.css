@@ -10148,3 +10148,10 @@ a.text-dark:hover, a.text-dark:focus {
 .v1_1 {
 	
 }
+
+
+.btn-botonmenu {
+	color: #fff;
+  background-color: #68B0AB;
+  border-color: #68B0AB;
+}
