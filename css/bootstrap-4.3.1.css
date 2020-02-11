@@ -10157,26 +10157,27 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: #68B0AB;
 }
 =======
-.fondoes {
-	background-image: url("../images/Home/Socios-image.png");	
-}
 
 
 
 
+
+
+
+
+
+>>>>>>> b8525975aac223778bd5c0beeafa9d9058cc4dc9
 
 .w-75m1 {
-	width: 75% ;
+	width: 50%;
 	height: 65%;
 }
 
-
-
-
-
-
-
-.w-75m2 {
-	
+.w-75mo {
+	width: 75% !important;
+	height: 65% !important;
 }
->>>>>>> b8525975aac223778bd5c0beeafa9d9058cc4dc9
+
+.imagenfondo {
+	background-image: url("../images/Home/Socios-image.png");
+}
