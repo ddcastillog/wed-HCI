@@ -257,7 +257,8 @@ header .navbar {
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
-	color: #5FED3C;
+	color: #f33f3f;
+}
 #navbarResponsive {
 	z-index: 999;
 }
