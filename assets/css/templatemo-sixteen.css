@@ -1063,3 +1063,9 @@ footer .inner-content p a {
 }
 
 
+
+.colorBoton {
+    background-color: #4A7C59 !important;
+	color: aliceblue;
+	border-color: #4A7C59;
+}
