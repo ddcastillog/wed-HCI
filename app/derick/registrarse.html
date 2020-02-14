@@ -12,12 +12,12 @@
     <title>PADOA - Iniciar Sesión</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="../../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../../assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="../../assets/css/owl.css">
 
   </head>
 
@@ -69,45 +69,46 @@
 	  <div class="best-features">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          	<div class="col-md-3">
+          </div>
+			<div class="col-md-6">
 			  <div class="section-heading text-center">
-              <h2>Iniciar Sesión</h2>
+              <h2>Registro de Organizaciones</h2>
             </div>
             <form id="login-form" method="post" role="form" style="display: block;">
+				<div class="form-group">
+					<input type="text" name="nombreorganizacion" id="nombreorganizacion" tabindex="1" class="form-control" placeholder="Nombre de la Organización" value="">
+				</div>
 				<div class="form-group">
 					<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Usuario" value="">
 				</div>
 				<div class="form-group">
+					<input type="text" name="direccion" id="direccion" tabindex="2" class="form-control" placeholder="Dirección">
+				</div>
+				<div class="form-group">
+					<input type="email" name="correo" id="correo" tabindex="2" class="form-control" placeholder="Correo Electrónico">
+				</div>
+				<div class="form-group">
+					<input type="tel" name="telefono" id="telefono" tabindex="2" class="form-control"  placeholder="Teléfono">
+				</div>
+				<div class="form-group">
 					<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña">
 				</div>
-				<div class="form-group text-center">
-					<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
-					<label for="remember"> Recordarme</label>
+				<div class="form-group">
+					<input type="password" name="reppassword" id="reppassword" tabindex="2" class="form-control" placeholder="Repita su contraseña">
 				</div>
+				<br>
 				<div class="form-group">
 					<div class="row">
 						<div class="col-sm-12 col-sm-offset-3">
-							<input class="btn btn-primary colorBoton" type="button" onclick = "location='app/kevin/index.html'" value="Iniciar Sesión">
+							<input class="btn btn-primary colorBoton" type="button" onclick = "location='app/kevin/index.html'" value="Registrarse">
 							
-						</div>
-					</div>
-				</div>
-				<div class="form-group text-center">
-					<label for="remember">¿No tienes una cuenta? Regístrate ahora: </label>
-				</div>
-				<div class="form-group">
-					<div class="row">
-						<div class="col-sm-12 col-sm-offset-3">
-							<input class="btn btn-primary colorBoton" type="button" onclick = "location='index.html'" value="Registrarse">
 						</div>
 					</div>
 				</div>
 			</form>
           </div>
-          <div class="col-md-6">
-            <div class="right-image">
-              <img src="assets/images/sesion.jpg" alt="">
-            </div>
+          <div class="col-md-3">
           </div>
         </div>
       </div>
@@ -130,16 +131,16 @@
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
     <!-- Additional Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/accordions.js"></script>
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/owl.js"></script>
+    <script src="../../assets/js/slick.js"></script>
+    <script src="../../assets/js/isotope.js"></script>
+    <script src="../../assets/js/accordions.js"></script>
 
 
     <script language = "text/Javascript"> 
