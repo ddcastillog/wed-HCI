@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>PADOA - Iniciar Sesión</title>
+    <title>PADOA - Donaciones</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item ">
-                <a class="nav-link" href="publicacionone.html">INICIO
+                <a class="nav-link active" href="publicacionone.html">INICIO
                   <span class="sr-only">(current)</span>
                 </a>
               </li> 
@@ -54,7 +54,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="about.html">SOCIOS</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="contact.html">INGRESAR</a>
               </li>
             </ul>
@@ -73,35 +73,29 @@
           </div>
 			<div class="col-md-6">
 			  <div class="section-heading text-center">
-              <h2>Registro de Organizaciones</h2>
+              <h2>Donaciones</h2>
             </div>
             <form id="login-form" method="post" role="form" style="display: block;">
 				<div class="form-group">
-					<input type="text" name="nombreorganizacion" id="nombreorganizacion" tabindex="1" class="form-control" placeholder="Nombre de la Organización" value="">
-				</div>
-				<div class="form-group">
-					<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Usuario" value="">
-				</div>
-				<div class="form-group">
-					<input type="text" name="direccion" id="direccion" tabindex="2" class="form-control" placeholder="Dirección">
+					<input type="text" name="nombre" id="nombre" tabindex="1" class="form-control" placeholder="Nombre" value="">
 				</div>
 				<div class="form-group">
 					<input type="email" name="correo" id="correo" tabindex="2" class="form-control" placeholder="Correo Electrónico">
 				</div>
 				<div class="form-group">
-					<input type="tel" name="telefono" id="telefono" tabindex="2" class="form-control"  placeholder="Teléfono">
+					<input type="tel" name="numerotar" id="numerotar" tabindex="2" class="form-control"  placeholder="Número de tarjeta">
+				</div>
+				<div class="form-group ">
+					<input type="text" name="password" id="password" tabindex="2" class="form-control" placeholder="Fecha de vencimiento mm/yy">
 				</div>
 				<div class="form-group">
-					<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña">
-				</div>
-				<div class="form-group">
-					<input type="password" name="reppassword" id="reppassword" tabindex="2" class="form-control" placeholder="Repita su contraseña">
+					<input type="text" name="cvc" id="cvc" tabindex="2" class="form-control" placeholder="CVC">
 				</div>
 				<br>
 				<div class="form-group">
 					<div class="row">
 						<div class="col-sm-12 col-sm-offset-3">
-							<input class="btn btn-primary colorBoton" type="button" onclick = "location='../../iniciarsesion.html'" value="Registrarse">
+							<input class="btn btn-primary colorBoton" type="button" onclick = "location='publicacionone.html'" value="Donar">
 							
 						</div>
 					</div>
