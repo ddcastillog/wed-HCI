@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>PADOA - Donaciones</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../../assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="../../assets/css/owl.css">
+
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="../../index.html"><h2>PA<em class="colorverde">DOA</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link active" href="../../index.html">INICIO
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="../guido/index.html">¿QUIENES SOMOS?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../Socios.html">SOCIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../iniciarsesion.html">INGRESAR</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- Page Content -->
+    <div class="banner header-text">
+	  <div class="best-features">
+      <div class="container">
+        <div class="row">
+          	<div class="col-md-3">
+          </div>
+			<div class="col-md-6">
+			  <div class="section-heading text-center">
+              <h2>Donaciones</h2>
+            </div>
+            <form id="login-form" method="post" role="form" style="display: block;">
+				<div class="form-group">
+					<input type="text" name="nombre" id="nombre" tabindex="1" class="form-control" placeholder="Nombre" value="">
+				</div>
+				<div class="form-group">
+					<input type="email" name="correo" id="correo" tabindex="2" class="form-control" placeholder="Correo Electrónico">
+				</div>
+				<div class="form-group">
+					<input type="tel" name="numerotar" id="numerotar" tabindex="2" class="form-control"  placeholder="Número de tarjeta">
+				</div>
+				<div class="form-group ">
+					<input type="text" name="password" id="password" tabindex="2" class="form-control" placeholder="Fecha de vencimiento: mm/yy">
+				</div>
+				<div class="form-group">
+					<input type="text" name="cvc" id="cvc" tabindex="2" class="form-control" placeholder="CVC">
+				</div>
+				<br>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-sm-12 col-sm-offset-3">
+							<input class="btn btn-primary colorBoton" type="button" onclick = "location='publicacionone.html'" value="Donar">
+							
+						</div>
+					</div>
+				</div>
+			</form>
+          </div>
+          <div class="col-md-3">
+          </div>
+        </div>
+      </div>
+  </div>
+	  </div>
+	<footer>
+  <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+				<h5>CONTACTOS</h5>
+				<p>TELEFONO:<a href="tel:+593979866889">+593 979866889</a></p>
+			  <p>CORREO:<a href="mailto:ddcastillog@utn.edu.ec">ddcastillog@utn.edu.ec</a></p>
+            </div>
+          </div>
+        </div>
+  </div>
+  </footer>    
+    
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="../../assets/js/custom.js"></script>
+    <script src="../../assets/js/owl.js"></script>
+    <script src="../../assets/js/slick.js"></script>
+    <script src="../../assets/js/isotope.js"></script>
+    <script src="../../assets/js/accordions.js"></script>
+
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+
+  </body>
+
+</html>
