@@ -12,3 +12,11 @@
 }
 
 
+
+.fondosocios {
+	padding: 300px 0px;
+	background-image: url("../../../assets/images/Socios-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
